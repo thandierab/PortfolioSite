@@ -66,6 +66,7 @@ p {
 .content h1 {
   font-size: 64px;
   line-height: 80px;
+  text-align: center;
 }
 
 .content h2 {
@@ -104,6 +105,11 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.form-container {
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 @media (max-width: 900px) {
