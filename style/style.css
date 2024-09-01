@@ -45,6 +45,11 @@ p {
   padding: 100px 20px;
 }
 
+.home-image {
+  padding: 120px 0;
+  border-radius: 5px;
+}
+
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -60,7 +65,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 80px 30px;
 }
 
 .content {
@@ -88,6 +93,19 @@ p {
 .content p {
   font-size: 14px;
 }
+.content ul {
+  font-size: 14px;
+  font-family: var(--default-font-family);
+  justify-content: center;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.about-paragraphs {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
 
 .btn-branding {
   background-color: var(--branding-color);
@@ -108,7 +126,7 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 100px 20px;
 }
 
 .form-container {
@@ -116,8 +134,15 @@ p {
   margin: 0 auto;
 }
 
-.frontend-container .card,
+.frontend-container .row,
 .bida-container .row {
+  justify-content: center;
+}
+
+.frontend-container .card,
+.bida-container .card {
+  margin: 0 auto;
+  display: flex;
   justify-content: center;
 }
 
@@ -221,7 +246,12 @@ footer .contact-box p {
     font-size: 14px;
   }
 
+  .form-container {
+    width: 80%;
+    font-size: 16px;
+  }
+
   footer .contact-box {
-    padding: 30px;
+    padding: 20px;
   }
 }
