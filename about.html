@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Thandie is a skilled analyst and front-end developer based in Johannesburg, South Africa. She is skilled in data analysis and visualation, as well as creating responsive websites."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,28 +30,74 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style/style.css" />
-    <title>About</title>
+    <title>About Thandie</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html" title="Homepage">
+          <div class="d-flex flex-column names d-none d-md-block fw-bold">
+            <div>Thandie</div>
+            <div>R-mane</div>
+          </div>
+        </a>
+        <div class="names d-block d-md-none fw-bold">
+          <a href="index.html">TR</a>
+        </div>
+
+        <ul>
+          <li><a href="index.html" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="about.html" title="About Thandie">About</a>
+          </li>
+          <li>
+            <a href="work.html" title="Thandie's work">Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact Thandie">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
             <h1 class="mb-4">Hi I am Thandie Rabasimane</h1>
-            <h2 class="mb-4">Frontend Developer, based in South Africa.</h2>
+            <h2 class="mb-4">Based in Johannesburg, South Africa.</h2>
             <p>
               For anyone who wants to start learning code, this workshop is very
               interesting. You will be challenged with different exercises, and
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/Group 18.png" alt="" class="img-fluid" />
+          <img src="images/Group 18.png" alt="portrait" class="img-fluid" />
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-flex justify-content-between">
+          <div>
+            <h3>Work inquiry</h3>
+            <p class="text-muted">Let's work together.</p>
+          </div>
+          <div>
+            <a
+              href="contact.html"
+              class="btn btn-branding mb-3 mt-3"
+              title="Contact Thandie"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <p class="text-center mt-5">
+          This site was coded by Thandie Rabasimane
+        </p>
+      </footer>
     </div>
   </body>
 </html>

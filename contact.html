@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Thandie is a skilled analyst and front-end developer based in Johannesburg, South Africa. Her projects include SQL and Python case studies as well as websites hosted on Netlify"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,12 +30,40 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style/style.css" />
-    <title>Contact</title>
+    <title>Contact Thandie</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html" title="Homepage">
+          <div class="d-flex flex-column names d-none d-md-block fw-bold">
+            <div>Thandie</div>
+            <div>R-mane</div>
+          </div>
+        </a>
+        <div class="names d-block d-md-none fw-bold">
+          <a href="index.html">TR</a>
+        </div>
+
+        <ul>
+          <li><a href="index.html" title="Homepage">Home</a></li>
+          <li>
+            <a href="about.html" title="About Thandie">About</a>
+          </li>
+          <li>
+            <a href="work.html" title="Thandie's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="contact.html" title="Contact Thandie">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container">
       <div class="content">
-        <h1 class="mb-5">📧Lets get in touch</h1>
+        <h1 class="mb-5">📧Lets get in touch.</h1>
+
         <div class="form-container mt-5">
           <form
             action="mailto:thandierabasimane@gmail.com"
@@ -39,17 +71,17 @@
             enctype="text/plain"
           >
             <div class="form-group">
-              <label for="email">Email address:</label>
+              <label for="email"></label>
               <input
                 type="email"
                 class="form-control"
                 id="email"
-                placeholder="Enter your email"
+                placeholder="Enter your email address"
                 required
               />
             </div>
             <div class="form-group">
-              <label for="message" class="mt-4">Message:</label>
+              <label for="message" class="mt-4"></label>
               <textarea
                 class="form-control"
                 id="message"
