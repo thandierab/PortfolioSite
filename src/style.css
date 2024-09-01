@@ -217,7 +217,12 @@ footer .contact-box p {
   }
 
   .content-container {
-    padding: 60px 20px;
+    padding: 30px 20px;
+  }
+
+  .content-container h1 {
+    font-size: 44px;
+    line-height: 1.4;
   }
 
   h1 {
@@ -229,7 +234,7 @@ footer .contact-box p {
     font-size: 44px;
   }
   .project-description {
-    padding: 0;
+    padding: 30px;
     text-align: center;
   }
 
@@ -242,13 +247,17 @@ footer .contact-box p {
     padding: 8px 15px;
   }
 
+  .names:active {
+    color: var(--branding-color);
+  }
+
   nav a {
     font-size: 14px;
   }
 
   .form-container {
-    width: 80%;
-    font-size: 16px;
+    width: 90%;
+    font-size: 14px;
   }
 
   footer .contact-box {
