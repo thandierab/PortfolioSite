@@ -65,7 +65,7 @@ p {
 }
 
 .content-container {
-  padding: 80px 30px;
+  padding: 15px 10px;
 }
 
 .content {
@@ -245,10 +245,6 @@ footer .contact-box p {
   .btn {
     font-size: 15px;
     padding: 8px 15px;
-  }
-
-  .names:active {
-    color: var(--branding-color);
   }
 
   nav a {
