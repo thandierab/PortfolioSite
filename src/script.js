@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       message = document.getElementById("message").value;
 
       // Create the mailto link
-      mailtoLink = `mailto:thandierabasimane@gmail.com?subject=Work%20Equiry&body=${encodeURIComponent(
+      mailtoLink = `mailto:thandierabasimane@gmail.com?subject=Work%20Enquiry&body=${encodeURIComponent(
         message
       )}`;
 
